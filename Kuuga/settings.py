@@ -25,7 +25,7 @@ SECRET_KEY = '4p1vwk3&8#n&&%!mka0zdq&cfoqt+@$_7j@)yopydd)stg(ob_'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['111.230.227.44']
 
 
 # Application definition
@@ -85,8 +85,8 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'Blog',
         'USER': 'jiangzai',
-        'PASSWORD': 'Paic1234',
-        'HOST': '127.0.0.1',
+        'PASSWORD': 'hellokitty',
+        'HOST': 'localhost',
         'PORT': '3306',
     }
 }
